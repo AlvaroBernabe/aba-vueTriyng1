@@ -3,6 +3,8 @@
     <h2>{{ "hello".length }}</h2>
     <h2>email: {{ email }}</h2>
     <h2>telefono: {{ mobile }}</h2>
+    <!-- <h2>telefono: {{ mobile = 999 }}</h2> -->
+    <h2>telefono: {{ mobile == 999 }}</h2>
     <h2>nombre: {{ getName1 }}</h2>
     <h2>nombre: {{ getName1() }}</h2>
 </template>
