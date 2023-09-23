@@ -3,14 +3,16 @@
   <HelloWorld msg="Welcome to Your firsty Vue.js App"/> -->
   <!-- <Homeone />
   <Pages /> -->
-  <inputBoxes />
+  <!-- <inputBoxes /> -->
+  <ifElse />
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 // import Homeone from './components/Home-one.vue'
 // import Pages from './components/pages.vue'
-import inputBoxes from './components/inputboxes.vue';
+// import inputBoxes from './components/inputboxes.vue';
+import ifElse from './components/if-else.vue';
 
 export default {
   name: 'App',
@@ -18,7 +20,8 @@ export default {
     // HelloWorld,
     // Homeone,
     // Pages,
-    inputBoxes
+    // inputBoxes
+    ifElse
   }
 }
 </script>
