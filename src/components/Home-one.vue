@@ -18,7 +18,7 @@
 
 <script>
 export default {
-    name: "PAGES",
+    name: "Home-one",
     // email: "ejemplo@email.com",
     data() {
         return {
@@ -43,6 +43,9 @@ export default {
                 mobile: this.mobile
             };
         },
+        // getData(data) {
+        //     alert(data)
+        // },
         ejemplo2() {
             alert("Has pulsado el Botón II")
         },

@@ -1,18 +1,24 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your firsty Vue.js App"/> -->
-  <PAGES />
+  <!-- <Homeone />
+  <Pages /> -->
+  <inputBoxes />
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import PAGES from './components/NewComponent.vue'
+// import Homeone from './components/Home-one.vue'
+// import Pages from './components/pages.vue'
+import inputBoxes from './components/inputboxes.vue';
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
-    PAGES,
+    // Homeone,
+    // Pages,
+    inputBoxes
   }
 }
 </script>
