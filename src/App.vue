@@ -4,7 +4,8 @@
   <!-- <Homeone />
   <Pages /> -->
   <!-- <inputBoxes /> -->
-  <ifElse />
+  <!-- <ifElse /> -->
+  <ForLoop />
 </template>
 
 <script>
@@ -12,7 +13,8 @@
 // import Homeone from './components/Home-one.vue'
 // import Pages from './components/pages.vue'
 // import inputBoxes from './components/inputboxes.vue';
-import ifElse from './components/if-else.vue';
+// import ifElse from './components/if-else.vue';
+import ForLoop from './components/For-loop.vue';
 
 export default {
   name: 'App',
@@ -20,8 +22,9 @@ export default {
     // HelloWorld,
     // Homeone,
     // Pages,
-    // inputBoxes
-    ifElse
+    // inputBoxes,
+    // ifElse,
+    ForLoop
   }
 }
 </script>
@@ -31,7 +34,7 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* text-align: center; */
   color: #2c3e50;
   margin-top: 60px;
 }

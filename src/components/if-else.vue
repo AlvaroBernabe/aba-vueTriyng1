@@ -4,7 +4,6 @@
     <h1 id="pages3" v-else>Else Statement </h1>
     <button v-on:click="display = true">Click Button</button>
     <button v-on:click="display = !display">Reset button</button>
-
 </template>
 
 <script>
