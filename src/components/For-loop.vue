@@ -6,38 +6,36 @@
         </li>
     </ul>
     <br>
-    <ul>
-        <li v-for="data in user" :key="data">
+    <ul v-if="Array.isArray(user)">
+        <li v-for="data in user" :key="data.email">
             Name is: {{ data.name }}
-        </li>
-        <li v-for="data in user" :key="data">
             Email is: {{ data.email }}
-        </li>
-        <li v-for="data in user" :key="data">
             Number is: {{ data.number }}
         </li>
     </ul>
+    <child :name="user.name" :user="user.email" :getData="getData"/>
 </template>
 
 <script>
+import child from './child.vue';
+
 export default {
     name: 'forLoop',
     data() {
         return {
             technology: ["PHP", "JavaScript", "C++", "C-sharp"],
-            user: [{
-                name: "Jack",
-                email: "jack@email.com",
-                number: 666555889,
-            },
-            {
-                name: "Erick",
-                email: "Erick@email.com",
-                number: +348833221,
-            },
-            ]
+            user: {
+                name: "Tony",
+                email: "tony@email.com"
+            }
         }
-    }
+    },
+    methods: {
+        getData() {
+            alert("Methods called")
+        }
+    },
+    components: {child},
 }
 </script>
 
