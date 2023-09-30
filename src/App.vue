@@ -5,7 +5,9 @@
   <Pages /> -->
   <!-- <inputBoxes /> -->
   <!-- <ifElse /> -->
-  <ForLoop />
+  <!-- <ForLoop /> -->
+  <!-- <NewUser /> -->
+  <ChildComponents />
 </template>
 
 <script>
@@ -14,7 +16,9 @@
 // import Pages from './components/pages.vue'
 // import inputBoxes from './components/inputboxes.vue';
 // import ifElse from './components/if-else.vue';
-import ForLoop from './components/For-loop.vue';
+// import ForLoop from './components/For-loop.vue';
+// import NewUser from './components/new-user.vue';
+import ChildComponents from './components/child-components.vue';
 
 export default {
   name: 'App',
@@ -24,8 +28,10 @@ export default {
     // Pages,
     // inputBoxes,
     // ifElse,
-    ForLoop
-  }
+    // ForLoop,
+    // NewUser,
+    ChildComponents,
+}
 }
 </script>
 

@@ -1,0 +1,53 @@
+<template>
+    <ul>
+        <li v-for="item in users" :key="item.name">
+            <NewUser :data="item" />
+        </li>
+    </ul>
+    <!-- <NewUser /> -->
+</template>
+
+<script>
+import NewUser from "./new-user.vue";
+export default {
+    name: "child-components",
+    props: {
+        name: String,
+        user: Object,
+        getData: Function
+    },
+    data() {
+        return {
+            users: [
+                {
+                    name: "jacson",
+                    email: "jackson@email.com",
+                },
+                {
+                    name: "juan",
+                    email: "juan@email.com",
+                },
+                {
+                    name: "paco",
+                    email: "paco@email.com",
+                },
+                {
+                    name: "federico",
+                    email: "federico@email.com",
+                },
+            ]
+        }
+    },
+    components: { NewUser }, // Use PascalCase here as well
+};
+</script>
+
+<style>
+h1 {
+    color: red;
+}
+h3 {
+    color: blue;
+    font-weight: bold;
+}
+</style>
