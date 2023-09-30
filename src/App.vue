@@ -7,7 +7,8 @@
   <!-- <ifElse /> -->
   <!-- <ForLoop /> -->
   <!-- <NewUser /> -->
-  <ChildComponents />
+  <!-- <ChildComponents /> -->
+  <formulario />
 </template>
 
 <script>
@@ -18,7 +19,8 @@
 // import ifElse from './components/if-else.vue';
 // import ForLoop from './components/For-loop.vue';
 // import NewUser from './components/new-user.vue';
-import ChildComponents from './components/child-components.vue';
+// import ChildComponents from './components/child-components.vue';
+import formulario from './components/formulario.vue';
 
 export default {
   name: 'App',
@@ -30,7 +32,8 @@ export default {
     // ifElse,
     // ForLoop,
     // NewUser,
-    ChildComponents,
+    // ChildComponents,
+    formulario,
 }
 }
 </script>
