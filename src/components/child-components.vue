@@ -4,6 +4,9 @@
             <NewUser :data="item" />
         </li>
     </ul>
+    <div v-html="emailadresss"></div>
+    <h1 v-html="id"></h1>
+
     <!-- <NewUser /> -->
 </template>
 
@@ -18,27 +21,30 @@ export default {
     },
     data() {
         return {
-            users: [
-                {
-                    name: "jacson",
-                    email: "jackson@email.com",
-                },
-                {
-                    name: "juan",
-                    email: "juan@email.com",
-                },
-                {
-                    name: "paco",
-                    email: "paco@email.com",
-                },
-                {
-                    name: "federico",
-                    email: "federico@email.com",
-                },
-            ]
+            // users: [
+            //     {
+            //         name: "jacson",
+            //         email: "jackson@email.com",
+            //     },
+            //     {
+            //         name: "juan",
+            //         email: "juan@email.com",
+            //     },
+            //     {
+            //         name: "paco",
+            //         email: "paco@email.com",
+            //     },
+            //     {
+            //         name: "federico",
+            //         email: "federico@email.com",
+            //     },
+            // ]
+            anmes: "peter",
+            emailadresss: "<h1>peter@gmail.com</h1>",
+            id: 895641513,
         }
     },
-    components: { NewUser }, // Use PascalCase here as well
+    components: { NewUser },
 };
 </script>
 
