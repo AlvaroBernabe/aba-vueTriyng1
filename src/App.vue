@@ -8,7 +8,9 @@
   <!-- <ForLoop /> -->
   <!-- <NewUser /> -->
   <!-- <ChildComponents /> -->
-  <formulario />
+  <!-- <formulario /> -->
+  <props />
+  <!-- <nonprops /> -->
 </template>
 
 <script>
@@ -20,7 +22,9 @@
 // import ForLoop from './components/For-loop.vue';
 // import NewUser from './components/new-user.vue';
 // import ChildComponents from './components/child-components.vue';
-import formulario from './components/formulario.vue';
+// import formulario from './components/formulario.vue';
+import props from './components/props.vue';
+// import nonprops from './components/nonprops.vue';
 
 export default {
   name: 'App',
@@ -33,7 +37,9 @@ export default {
     // ForLoop,
     // NewUser,
     // ChildComponents,
-    formulario,
+    // formulario,
+    props,
+    // nonprops,
 }
 }
 </script>

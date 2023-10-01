@@ -1,5 +1,6 @@
 <template>
   <h1>Props</h1>
+  <h2>Esto es props</h2>
   <Nonprops info="Hello world" id="name" />
 </template>
 <script>
