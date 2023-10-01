@@ -10,7 +10,7 @@
   <Thrid /> -->
   <component :is="active" />
   <teleport to="#header">
-    <Header />
+  <Header />
   </teleport>
 </template>
 <script>
