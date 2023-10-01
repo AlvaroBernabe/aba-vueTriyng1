@@ -9,8 +9,9 @@
   <!-- <NewUser /> -->
   <!-- <ChildComponents /> -->
   <!-- <formulario /> -->
-  <props />
+  <!-- <props /> -->
   <!-- <nonprops /> -->
+  <watchers />
 </template>
 
 <script>
@@ -23,8 +24,9 @@
 // import NewUser from './components/new-user.vue';
 // import ChildComponents from './components/child-components.vue';
 // import formulario from './components/formulario.vue';
-import props from './components/props.vue';
+// import props from './components/props.vue';
 // import nonprops from './components/nonprops.vue';
+import watchers from './components/watchers.vue';
 
 export default {
   name: 'App',
@@ -38,8 +40,9 @@ export default {
     // NewUser,
     // ChildComponents,
     // formulario,
-    props,
+    // props,
     // nonprops,
+    watchers,
 }
 }
 </script>

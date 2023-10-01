@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
   <h1>Computed Property</h1>
   <h2>{{ getTotal }}</h2>
   <h2>{{ getTotal }}</h2>
@@ -21,4 +21,4 @@ export default {
     },
   },
 };
-</script> -->
+</script>
