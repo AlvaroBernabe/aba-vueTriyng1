@@ -11,7 +11,8 @@
   <!-- <formulario /> -->
   <!-- <props /> -->
   <!-- <nonprops /> -->
-  <watchers />
+  <!-- <watchers /> -->
+  <Home />
 </template>
 
 <script>
@@ -26,7 +27,8 @@
 // import formulario from './components/formulario.vue';
 // import props from './components/props.vue';
 // import nonprops from './components/nonprops.vue';
-import watchers from './components/watchers.vue';
+import Home from './components/home.vue';
+// import watchers from './components/watchers.vue';
 
 export default {
   name: 'App',
@@ -42,7 +44,8 @@ export default {
     // formulario,
     // props,
     // nonprops,
-    watchers,
+    // watchers,
+    Home
 }
 }
 </script>
